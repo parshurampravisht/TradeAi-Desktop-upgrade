@@ -1,0 +1,623 @@
+body {
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+
+/* Add Basket*/
+
+.basket1-wrap {
+  border-radius: 5px;
+  width: 85%;
+  height: 70vh;
+  margin: 40px auto 0 auto;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+/* styles/index.module.css */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  /* Semi-transparent white overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Other styles remain the same */
+
+/* styles/index.module.css */
+
+.container {
+  position: relative;
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  /* Set your preferred background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  /* Set a high z-index to ensure it appears above other elements */
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+  /* Set your preferred text color */
+}
+
+/* Alternative Loading Style */
+.loading.alternative {
+  background-color: #007bff;
+  /* Set your preferred background color for the alternative style */
+  color: #fff;
+  /* Set your preferred text color for the alternative style */
+}
+
+.basket1-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 65px 0;
+}
+
+.basket1-top h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.basket1-top button {
+  width: 90px;
+  height: 33px;
+  background-color: #4680c2;
+  color: #f9f9f9;
+  border-radius: 5px;
+  padding: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.basket1-table {
+  padding: 10px 65px;
+  background-color: #fff;
+}
+
+.basket1-table .ag-root-wrapper {
+  border: 1px solid #dadada;
+  border-radius: 5px;
+}
+
+.basket1-table .ag-header {
+  background-color: #f7f6f9;
+  border: none;
+  height: 28px !important;
+  width: 100%;
+}
+
+.basket1-table .ag-header-cell::after {
+  content: "";
+  width: 0;
+}
+
+.basket1-table .ag-header-cell-label {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.basket1-table .ag-header-cell-label span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: #2c2c2c;
+}
+
+.basket1-table .ag-ltr .ag-cell {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 5px 10px;
+  letter-spacing: 0em;
+}
+
+#sno {
+  padding-left: 15px;
+}
+
+.client-table-rows .ag-center-cols-container {
+  min-width: 100% !important;
+}
+
+.basket1-table .ag-row {
+  border: none;
+  height: 28px !important;
+}
+
+.basket1-table .nextui-c-dfbgCO {
+  justify-content: center;
+}
+
+.basket1-table .ag-row-odd {
+  background-color: #f7f6f9 !important;
+}
+
+.basket1-preview-table {
+  padding: 10px 65px;
+  background-color: #fff;
+}
+
+.basket1-preview-table .ag-root-wrapper {
+  border: 1px solid #dadada;
+  border-radius: 5px;
+}
+
+.basket1-preview-table .ag-header {
+  background-color: #f7f6f9;
+  border: none;
+  height: 28px !important;
+  width: 100%;
+}
+
+.basket1-preview-table .ag-header-cell::after {
+  content: "";
+  width: 0;
+}
+
+.basket1-preview-table .ag-header-cell-label {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.basket1-preview-table .ag-header-cell-label span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: #2c2c2c;
+}
+
+.basket1-preview-table .ag-ltr .ag-cell {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 5px 10px;
+  letter-spacing: 0em;
+}
+
+#sno {
+  padding-left: 15px;
+}
+
+.basket1-preview-table .ag-row {
+  border: none;
+  height: 28px !important;
+}
+
+.basket1-preview-table .nextui-c-dfbgCO {
+  justify-content: center;
+}
+
+.basket1-preview-table .ag-row-odd {
+  background-color: #f7f6f9 !important;
+}
+
+/* addstock card */
+
+.basket2-wrap {
+  display: flex;
+  flex-direction: column;
+  background-color: inherit;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+.basket2-wrap .nextui-c-BDLTQ-eZMbDJ-variant-shadow {
+  filter: none;
+}
+
+.basket2-img .nextui-c-iVzbCs-igTRSAQ-css {
+  width: 34px;
+  height: 34px;
+}
+
+.basket2-name h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.basket2-input {
+  width: 100% !important;
+}
+
+.basket2-input .highlightOption {
+  background-color: #3c57a2;
+  color: #ffffff;
+}
+
+.basket2-input.multiSelectContainer li:hover {
+  background-color: #3c57a2;
+  color: #ffffff;
+}
+
+.basket2-wrap .chip {
+  background-color: #3c57a2 !important;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0 5px 5px 0;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.basket2-grid .ag-root-wrapper {
+  border: none;
+  /* width: 841px; */
+}
+
+.basket2-grid .ag-header {
+  background-color: #f9f9f9;
+  height: 36px !important;
+  border: none;
+}
+
+.basket2-grid .ag-header-cell::after {
+  content: "";
+  width: 0;
+}
+
+.basket2-grid .ag-header-cell-label {
+  justify-content: center;
+}
+
+.basket2-grid .ag-ltr .ag-cell {
+  text-align: center;
+}
+
+.basket2-grid .ag-header-cell-label span {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #838383;
+}
+
+.basket2-grid .ag-center-cols-container {
+  width: 100% !important;
+}
+
+.basket2-grid .ag-row {
+  border: none;
+}
+
+.basket2-grid .ag-cell {
+  font-size: 12px !important;
+  font-weight: 400;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2c2c2c;
+}
+
+.basket2-grid .ag-row-odd {
+  background-color: #f9f9f9 !important;
+}
+
+.basket2-f-button {
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.basket2-f-button Button {
+  width: 135px;
+  height: 40px;
+  /* border: 1px solid #838383; */
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.basket2-f-button Button span {
+  font-size: 14px !important;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  /* color: #838383; */
+  text-align: center;
+}
+
+.basket2-f-button-blue {
+  width: 175px !important;
+  height: 40px;
+  border: none !important;
+  /* background-color: #4680c2; */
+  /* color: #f9f9f9; */
+}
+
+.basket2-f-button-blue span {
+  /* color: #f9f9f9 !important; */
+}
+
+/* Client group basket3 */
+
+.basket3-wrap {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.basket3-main {
+  margin: 0 auto;
+}
+
+.basket2-table .ag-center-cols-container {
+  width: 100% !important;
+}
+
+.basket3-main.nextui-c-BDLTQ-eZMbDJ-variant-shadow {
+  filter: none !important;
+}
+
+.basket3-content h3 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.basket3-icon {
+  display: flex;
+}
+
+.basket3-button {
+  display: flex;
+}
+
+.basket3-button li {
+  width: 75px;
+  height: 30px;
+}
+
+.basket3-button li::before {
+  background-color: #4680c2;
+}
+
+.basket3-button .nextui-c-yrlUe::before {
+  border-radius: 5px 0 0 5px !important;
+}
+
+.basket3-button .nextui-c-yrlUe-hwFizd-cv {
+  color: #ffffff !important;
+}
+
+.basket3-button li a {
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.groupbt li.nextui-c-yrlUe::before {
+  border-radius: 0 5px 5px 0 !important;
+}
+
+.basket3-input-create-equity-basket .multiSelectContainer {
+  width: 73.5rem !important;
+}
+
+.basket3-input-equity-basket .multiSelectContainer {
+  width: 67.7rem !important;
+}
+
+.basket3-input .multiSelectContainer .searchWrapper {
+  border: none !important;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+.input.multiSelectContainer input {
+  background: transparent !important;
+  border: none;
+  margin-top: 0px;
+  padding: 2px 0 4px 30px;
+}
+
+.basket3-input .multiSelectContainer input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: normal;
+}
+
+.basket3-input .chip {
+  background-color: #3c57a2 !important;
+}
+
+.basket3-input .highlightOption {
+  background-color: #3c57a2;
+  color: #fff;
+}
+
+.basket3-input .multiSelectContainer li:hover {
+  background-color: #3c57a2;
+  color: #fff;
+}
+
+.basket3-btadd button {
+  width: 170px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #3c57a2;
+  color: #ffff;
+}
+
+.basket3-table .ag-root-wrapper {
+  border: none;
+}
+
+.basket3-table .ag-header {
+  border: none;
+  background-color: #fff;
+  text-align: center;
+  height: 36px !important;
+}
+
+.basket3-table .ag-header-cell-label {
+  justify-content: left;
+  text-align: center;
+}
+
+.basket3-table .ag-header-cell-label span {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #838383;
+}
+
+.basket3-table .ag-header-cell::after {
+  content: "";
+  width: 0;
+}
+
+.ag-row.horizontal-scrollbar-row {
+  background-color: #f7f7f7;
+}
+
+.basket3-table .ag-row {
+  border: none;
+  text-align: center;
+}
+
+.basket3-table .ag-cell {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2c2c2c;
+}
+
+.basket3-table .ag-row-even {
+  background-color: #f9f9f9 !important;
+}
+
+.basket3-table .ag-row {
+  display: flex !important;
+}
+
+/* footer button */
+.basket3-footer-bt button {
+  width: 135px;
+  border-radius: 8px;
+  padding: 6px;
+}
+
+.basket3-footer-bt button span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+Button.basket3-footer-blue {
+  margin-left: 6px;
+  border-radius: 8px;
+  border: none;
+  width: 175px;
+}
+
+/* Basket p l */
+
+.basket4-table .ag-root-wrapper {
+  border: none !important;
+  border-radius: none;
+}
+
+.basket4-table .ag-header {
+  background-color: #fff;
+  border: none;
+}
+
+.basket4-table .ag-header-cell {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2c2c2c;
+}
+
+.basket3-button {
+  display: flex;
+}
+
+.basket3-button li {
+  width: 75px;
+  height: 30px;
+}
+
+.basket4-button li::before {
+  background-color: #4680c2;
+}
+
+.basket4-button .nextui-c-yrlUe::before {
+  border-radius: 5px 0 0 5px !important;
+}
+
+.basket4-button .nextui-c-yrlUe-hwFizd-cv {
+  color: #ffffff !important;
+}
+
+.basket4-button li a {
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.broker-image-equity-basket-table .nextui-image-container {
+  margin: 0px !important;
+}
+
+.basket-icon-color .nextui-image-container {
+  color: #3c57a2 !important;
+}
+
+.icon-plus-wrapper-equity-basket .nextui-c-iWjDFM-hkKLfu-color-default {
+  background: #3c57a2 !important;
+  border-radius: 8px !important;
+}

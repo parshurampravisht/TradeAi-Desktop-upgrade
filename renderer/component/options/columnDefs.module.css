@@ -1,0 +1,79 @@
+.cellcontent {
+  position: relative;
+}
+
+.hoverbutton {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  transform: translate(-40%, -20%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 9999999;
+  width: 3rem;
+  background-color: #1fa459 !important;
+  color: #ffffff !important;
+  border: none;
+  border-radius: 15%;
+  cursor: pointer;
+}
+.button {
+  width: 1rem;
+  background-color: #1fa459 !important;
+  color: #ffffff !important;
+  border: none;
+  border-radius: 15%;
+  cursor: pointer;
+  height: 24px;
+}
+.cellcontent:hover .hoverbutton {
+  opacity: 1;
+}
+
+.hoverbutton1 {
+  position: absolute;
+  top: 10%;
+  left: 49%;
+  transform: translate(-40%, -20%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 9999999;
+  width: 3rem;
+  background-color: #e8464c !important;
+  color: #ffffff !important;
+  border: none;
+  border-radius: 15%;
+  cursor: pointer;
+}
+.button1 {
+  width: 1rem;
+  background-color: #e8464c !important;
+  color: #ffffff !important;
+  border: none;
+  border-radius: 15%;
+  cursor: pointer;
+  height: 24px;
+}
+.cellcontent:hover .hoverbutton1 {
+  opacity: 1;
+}
+
+.hoverbutton3 {
+  position: absolute;
+  top: 10%;
+  left: 82%;
+  transform: translate(-40%, -20%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 9999999;
+  width: 3rem;
+  background-color: yellow !important;
+  color: #ffffff !important;
+  border: none;
+  border-radius: 15%;
+  cursor: pointer;
+}
+
+.cellcontent:hover .hoverbutton3 {
+  opacity: 1;
+}

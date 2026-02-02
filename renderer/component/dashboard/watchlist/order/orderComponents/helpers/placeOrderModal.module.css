@@ -1,0 +1,119 @@
+/* .orderDetails{
+    overflow-y: hidden !important;
+    background-color: #FCF1ED !important;
+} */
+ 
+ 
+.orderDetails h1{
+    /* font-family: Poppins; */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.orderDetails h3{
+    /* font-family: Poppins; */
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+     
+/* cash & enquty */
+
+.selltabs {
+    background-color: #f5f5f5;
+    min-height: 40px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    color: #838383;
+}
+
+.selltabs .nextui-c-yrlUe-cdrGrt-isActive-true {
+    color: #000;
+}
+
+.selltabs li::after {
+    background-color: #4680C2;  
+}
+
+.selltabs ul {
+    gap: 0;
+}
+
+.selltabs li {
+    padding: 20px 20px;
+    /* font-family: Poppins; */
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: center;
+
+}
+
+/* card button */
+
+.spaceleft {
+    margin-right: 30px;
+}
+
+.spaceleft .content p{
+    margin: 0 0 10px 0;
+    width: 235px;
+    /* font-family: Poppins; */
+    font-weight: 400;
+    font-size: 14px;
+    width: 235px;
+    line-height: 21px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #585858;
+}
+.buy {
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+}
+.buy li{
+    /* font-family: Poppins; */
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: normal;
+    text-align: center;
+
+}
+.sell {
+    outline: none !important;
+    border: none;
+    border-radius: 0 8px 8px 0;
+}
+.sell li{
+    /* font-family: Poppins; */
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: normal;
+    text-align: center;
+
+}
+ 
+
+ 
+/* Order details */
+
+.radio{
+    flex-direction: inherit;
+    --nextui--radioRadii: var(--nextui-radii-rounded);
+    border-radius: 30px;
+    padding: 2px 8px;
+    background-color: #ffffff;
+  }
+  
+
+
+
+

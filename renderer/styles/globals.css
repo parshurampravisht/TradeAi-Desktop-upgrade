@@ -1,0 +1,1343 @@
+/* for multi select react z-index */
+.optionListContainer {
+  z-index: 1000 !important;
+}
+
+/* for removing arrows from type number inout boxes */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*svg image rotation*/
+#svgImage {
+  transform: rotate(180deg);
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* for implementing border */
+.child {
+  border: 1px solid #2684ff !important;
+}
+
+.ag-body-horizontal-scroll-viewport {
+  overflow-x: auto !important;
+}
+
+.watchlist_theme .ag-body-horizontal-scroll-viewport {
+  overflow-x: hidden !important;
+}
+
+/* .orderTable .tabulator {
+
+    background-color: #333;
+} */
+.slider_animation {
+  transition: transform 2s ease-in-out;
+  /* You can adjust the duration and timing function as needed */
+}
+
+.slider_animation.show {
+  transform: translateX(0);
+}
+
+.slider_animation.hide {
+  transform: translateX(-100%);
+}
+
+/* .nextui-c-gYbKeQ {
+  padding: 0% !important;
+} */
+
+.multiSelectContainer {
+  background: white;
+  /* width: 20rem !important; */
+}
+
+/* for options page*/
+
+.Symbol__menu {
+  z-index: 9999 !important;
+}
+
+/* .optionsSelect .searchWrapper {
+  width:20rem !important;
+  z-index: 1000 !important;
+
+}
+.optionsSelect .displayBlock{
+  width: 20rem !important;
+  z-index: 1000 !important;
+} */
+
+.optionsClients {
+  position: relative !important;
+}
+
+/* .multiSelectContainer.optionsClients .optionListContainer  {
+
+} */
+.multiSelectContainer ul {
+  height: 180px;
+}
+
+.groupDropDown-fno {
+  width: 12rem !important;
+}
+
+.groupDropDown .multiSelectContainer {
+  width: 13rem !important;
+}
+
+.groupDropDown1 .multiSelectContainer {
+  width: 23rem !important;
+}
+
+.watchlistDropdown .multiSelectContainer {
+  width: 25rem !important;
+}
+
+.order_select_clients .multiSelectContainer {
+  width: 38rem !important;
+  border: none;
+  border-radius: 8px;
+}
+
+.equity_order_select_clients .multiSelectContainer {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+}
+
+.equity_order_select_clients>div:first-child {
+  width: 100% !important;
+}
+
+.equity_order_select_clients .multiSelectContainer .searchWrapper {
+  border: none !important;
+  padding: 4px 0 7px 10px;
+}
+
+.order_select_clients .multiSelectContainer .searchWrapper {
+  border: none !important;
+  padding: 4px 0 7px 10px;
+}
+
+.btnBlue {
+  padding: 0 20px 0 0 !important;
+  margin: 0 24px 0 0;
+  width: 96px;
+}
+
+.btnBlue Button {
+  background-color: #3c57a2 !important;
+}
+
+/* .order_select_clients2 .multiSelectContainer{
+  width:75rem !important
+
+} */
+
+.createGroupDropdown .multiSelectContainer {
+  width: 20rem !important;
+}
+
+.createGroupCustomDropdown .multiSelectContainer {
+  width: 100% !important;
+}
+
+.multiSelectContainer input {
+  background: white !important;
+}
+
+.nextui-c-jeuecp {
+  background: #fff !important;
+}
+
+.nextui-c-eXOOPO {
+  background: #fff !important;
+}
+
+.group-input-wrapper .nextui-c-eXOOPO {
+  border-radius: 4px !important;
+}
+
+.create-group-modal .nextui-modal-close-icon {
+  padding-top: 20px;
+  padding-right: 15px;
+}
+
+.tabulator {
+  position: relative;
+  border: 0px !important;
+  border-radius: 0px !important;
+  background-color: #888;
+  font-size: 13px;
+  text-align: left;
+  overflow: hidden;
+  transform: translatez(0);
+}
+
+/* fixing nav bar alignment */
+.nextui-navbar-container {
+  max-width: 100% !important;
+  padding-left: 0px;
+  padding-bottom: 5px;
+}
+
+/* brokers health alignment */
+/* .nextui-grid-item div[role="section"] {
+  margin-left: 0px !important;
+} */
+
+body {
+  width: 100% !important;
+  margin: 0 auto !important;
+  background-color: #f5f5f5 !important;
+}
+
+.custom-option {
+  transition: background 60ms;
+}
+
+.custom-option:hover {
+  transition-delay: 60ms;
+  background: #d0d6de;
+  cursor: pointer;
+}
+
+.custom-option.custom-select__option--is-focused {
+  background: none;
+}
+
+.custom-option.custom-select__option--is-selected {
+  background: #2684ff;
+}
+
+.react-virtualized-menu-placeholder {
+  margin-top: 12px;
+  color: #9a9a9a;
+  text-align: center;
+}
+
+.react-virtualized-list-wrapper li {
+  list-style: none;
+}
+
+/* xterm */
+.xterm-screen textarea {
+  background: #000;
+  border: none;
+  resize: none;
+}
+
+/*
+.xterm-rows > div:first-child span:nth-child(1),.xterm-rows > div:first-child span:nth-child(2){
+  display: none;
+} */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------- */
+.trafficlight {
+  background: #222;
+  background-image: linear-gradient(transparent 2%,
+      #111 2%,
+      transparent 3%,
+      #111 30%);
+
+  width: 40px;
+  height: 35px;
+  border-radius: 10px;
+  position: relative;
+  border: solid 3px #333;
+}
+
+/* .protector {
+  width: 60px;
+  height: 70px;
+  position: absolute;
+  top: 5px;
+  left: -12px;
+  border-right: solid 17px transparent;
+  border-left: solid 17px transparent;
+  border-top: solid 17px #111;
+  border-radius: 10px;
+} */
+
+.red {
+  background: red;
+  background-image: radial-gradient(brown, transparent);
+  background-size: 5px 5px;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  position: absolute;
+  top: 2.5px;
+  left: 6px;
+  animation: 1s red infinite;
+  border: dotted 2px red;
+  box-shadow: 0 0 20px #111 inset, 0 0 10px red;
+}
+
+.yellow {
+  background: yellow;
+  background-image: radial-gradient(orange, transparent);
+  background-size: 5px 5px;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  position: absolute;
+  top: 2.5px;
+  left: 6px;
+  animation: 1s yellow infinite;
+  animation-delay: 10ms;
+  border: dotted 2px yellow;
+  box-shadow: 0 0 20px #111 inset, 0 0 10px yellow;
+}
+
+.green {
+  background: green;
+  background-image: radial-gradient(lime, transparent);
+  background-size: 5px 5px;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  position: absolute;
+  top: 2.5px;
+  left: 6px;
+  animation: 1s green infinite;
+
+  border: dotted 2px lime;
+  box-shadow: 0 0 20px #111 inset, 0 0 10px lime;
+}
+
+.gray {
+  background: gray;
+  background-image: radial-gradient(gray, transparent);
+  background-size: 5px 5px;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  position: absolute;
+  top: 2.5px;
+  left: 6px;
+  animation: 1s gray infinite;
+
+  border: dotted 2px gray;
+  box-shadow: 0 0 20px #111 inset, 0 0 10px gray;
+}
+
+@keyframes red {
+  0% {
+    opacity: 1;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  60% {
+    opacity: 0.1;
+  }
+
+  80% {
+    opacity: 0.1;
+  }
+
+  100% {
+    opacity: 0.1;
+  }
+}
+
+@keyframes yellow {
+  0% {
+    opacity: 0.1;
+  }
+
+  20% {
+    opacity: 0.1;
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.1;
+  }
+
+  60% {
+    opacity: 0.1;
+  }
+
+  80% {
+    opacity: 0.1;
+  }
+
+  100% {
+    opacity: 0.1;
+  }
+}
+
+@keyframes green {
+  0% {
+    opacity: 0.1;
+  }
+
+  20% {
+    opacity: 0.1;
+  }
+
+  40% {
+    opacity: 0.1;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  83% {
+    opacity: 0.1;
+  }
+
+  86% {
+    opacity: 1;
+  }
+
+  89% {
+    opacity: 0.1;
+  }
+
+  93% {
+    opacity: 1;
+  }
+
+  96% {
+    opacity: 0.1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* css for toggle switch */
+.statusToggle {
+  flex-direction: row-reverse;
+  display: flex;
+  align-items: center;
+}
+
+.statusToggle span {
+  font-style: normal;
+  color: #333333;
+  font-weight: 500;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 28px;
+  width: 26px;
+  left: 4px;
+  bottom: -4px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+input:checked+.slider {
+  background-color: #18df85;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 20px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.Toastify__toast-body {
+  font-size: 13px !important;
+}
+
+.Toastify__progress-bar {
+  animation: Toastify__trackProgressRTL 5s linear forwards !important;
+}
+
+@keyframes Toastify__trackProgressRTL {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+/* .btBlue{
+  background-color: #4680C2;
+  padding: 0 20px 0 0 !important;
+} */
+
+@media screen and (max-width: 768px) {
+  .statusToggle {
+    justify-content: flex-end;
+    padding: 20px 0;
+  }
+
+  .styledPlanBtn {
+    white-space: nowrap;
+  }
+}
+
+/* AARTIIND */
+.AARTIIND .nextui-c-BDLTQ-ihqwSVj-css {
+  background-color: #edfff5;
+  border: none;
+  border-radius: 4px;
+  margin-top: var(--nextui-space-5);
+  width: 14rem;
+  height: 5.4rem;
+}
+
+.AARTIIND .nextui-c-BDLTQ-idafYaU-css {
+  margin-top: var(--nextui-space-5);
+  background-color: #edfff5;
+  width: 14rem;
+  height: 5.4rem;
+  border: none;
+  border-radius: 4px;
+}
+
+.AARTIIND h4 {
+  font-size: 14px !important;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2c2c2c;
+  margin: 0;
+}
+
+.AARTIIND .nextui-c-cMTZRp-ikLqvzC-css {
+  padding: 3px 0 0 0;
+}
+
+.AARTIIND .nextui-c-cMTZRp-ikLqvzC-css p {
+  /* font-family: Poppins; */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2c2c2c;
+}
+
+.AARTIIND .nextui-c-cMTZRp-idfoAjo-css p {
+  /* font-family: Poppins; */
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+/* LASTTRADE */
+.LASTTRADE h5 {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2c2c2c;
+}
+
+.LASTTRADE h6 {
+  /* font-family: Poppins; */
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #838383;
+}
+
+.LASTTRADE p {
+  /* font-family: Poppins; */
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.LASTTRADE .nextui-c-PJLV-ilopsdH-css {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* client order */
+.btclient li {
+  width: 60px;
+  height: 30px;
+}
+
+.btclient li h2 {
+  /* font-family: Poppins; */
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #838383;
+}
+
+.btclient li {
+  color: #ffff;
+}
+
+.btclient li::before {
+  background-color: #4680c2;
+}
+
+.c-input input {
+  padding-left: 40px;
+}
+
+.c-input input::placeholder {
+  /* font-family: Poppins; */
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.c-table th,
+td {
+  /* font-family: Poppins; */
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+/* last-5 */
+
+.last-5 h6 {
+  font-size: 12px !important;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4680c2;
+  margin: 0;
+}
+
+.last-5 .ag-header {
+  border: none;
+  background-color: #ffffff;
+}
+
+.last-5 .ag-header-cell-label {
+  justify-content: center;
+}
+
+.last-5 .ag-header span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2c2c2c;
+}
+
+.last-5 .ag-header-cell::after {
+  width: 0 !important;
+}
+
+.last-5 .ag-root-wrapper {
+  border: none;
+}
+
+.last-5 .ag-row-even {
+  background-color: #f7f6f9;
+}
+
+.last-5 .ag-ltr .ag-cell {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #505050;
+}
+
+/* order details */
+.btcancel Button {
+  background-color: #ffffff;
+  border: 1px solid #838383;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.btcancel Button span {
+  /* font-family: Poppins; */
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #838383;
+}
+
+.btPlace Button {
+  background-color: #e8464c;
+  /* border: 1px solid #838383; */
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.btPlace .nextui-c-iWjDFM-iceehFp-css {
+  background-color: #17c964;
+}
+
+.btPlace Button span {
+  /* font-family: Poppins; */
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.input-text input {
+  width: 50px;
+}
+
+.btnclassText Button {
+  background-color: #17c964;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.btnclassText Button span {
+  /* font-family: Poppins; */
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.highlight-row .ag-cell {
+  background-color: #18df85 !important;
+}
+
+.placeModalLeftSection {
+  width: 100%;
+  border: 1px solid rgb(218, 218, 218);
+  border-radius: 14px;
+}
+
+.undefinedHealthImg {
+  top: 5px;
+  position: relative;
+  margin: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px 4px #4f504f;
+}
+
+.noneHealthImg {
+  top: 5px;
+  position: relative;
+  margin: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px 4px #4f504f;
+}
+
+.greyHealthImg {
+  top: 5px;
+  position: relative;
+  margin: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 3px 3px #98ada0;
+  animation: greyGlow 1.5s linear infinite alternate;
+}
+
+@keyframes greyGlow {
+  to {
+    box-shadow: 0px 0px 6px 6px hsl(140, 1%, 57%);
+  }
+}
+
+.orangeHealthImg {
+  top: 5px;
+  position: relative;
+  margin: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 3px 3px #98ada0;
+  animation: orangeGlow 1.5s linear infinite alternate;
+}
+
+@keyframes orangeGlow {
+  to {
+    box-shadow: 0px 0px 6px 6px #f0d509;
+  }
+}
+
+.greenHealthImg {
+  top: 5px;
+  position: relative;
+  margin: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 3px 3px #366445;
+  animation: greeGlow 1.5s linear infinite alternate;
+}
+
+@keyframes greeGlow {
+  to {
+    box-shadow: 0px 0px 6px 6px #025e1b;
+  }
+}
+
+.redHealthImg {
+  top: 5px;
+  position: relative;
+  margin: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 3px 3px #98ada0;
+  animation: redGlow 1.5s linear infinite alternate;
+}
+
+@keyframes redGlow {
+  to {
+    box-shadow: 0px 0px 6px 6px hsl(13, 93%, 52%);
+  }
+}
+
+#notification {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 200px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  z-index: 100000;
+}
+
+.hidden {
+  display: none;
+}
+
+.ag-theme-alpine {
+  overflow-y: hidden !important;
+}
+
+#appInfo {
+  position: fixed;
+  bottom: 0px;
+  z-index: 100000;
+  left: 32%;
+  font-size: 12px;
+  background-color: #f2f2f2;
+  padding: 0px 10px 1px 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.dropzone {
+  text-align: center;
+  padding: 30px;
+  border: 3px dashed #eeeeee;
+  background-color: #f8fcff;
+  color: #bdbdbd;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.selected-file-wrapper {
+  text-align: center;
+}
+
+.selected-file {
+  color: #000;
+  font-weight: bold;
+}
+
+.pageHeader {
+  padding: 0px;
+  font-weight: bold;
+  font-size: 16;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.greenWebsocket {
+  margin-top: 5px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px 2px #98ada0;
+  animation: greeGlowWS 1.5s linear infinite alternate;
+}
+
+@keyframes greeGlowWS {
+  to {
+    box-shadow: 0px 0px 5px 5px hsl(139, 95%, 31%);
+  }
+}
+
+.clientStatus {
+  margin-top: 5px;
+}
+
+.ag-grid-custom-height {
+  height: 610px !important;
+  /* Adjust the height as needed */
+}
+
+.errorBorder {
+  border: red 1px solid;
+}
+
+.ag-header-cell-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ps-menuitem-root.single-modal-broker-item {
+  margin-bottom: 0 !important;
+}
+
+.single-modal-broker-item .ps-menu-label {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.single-modal-broker-item .ps-menu-button {
+  height: fit-content !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.single-modal-broker-image {
+  display: flex;
+  margin: 0px;
+}
+
+.single-client-upload-modal .nextui-modal-close-icon {
+  padding-right: 10px;
+}
+
+.single-client-upload-modal .nextui-modal-footer {
+  margin-bottom: 10px !important;
+}
+
+.nextui-c-bUbfzy-jEskRi-isSelected-true .nextui-c-PJLV:where(.nextui-c-eKxzBn.nextui-c-gulvcB)::before {
+  background: transparent;
+}
+
+.custom-multiselect .dropdown-content {
+  position: absolute !important;
+  z-index: 9999 !important;
+  background: white;
+}
+
+.custom-multiselect .optionListContainer {
+  position: fixed !important;
+  z-index: 9999 !important;
+  width: 23rem !important;
+}
+
+.custom-right-sidebar-class {
+  position: fixed;
+  right: 0px !important;
+  left: unset !important;
+  box-shadow: rgb(0 0 0 / 15%) -2px 2px 4px !important;
+}
+
+.custom-left-sider-table-header {
+  padding: 5px 12px;
+  color: #7e868c;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: #f1f3f5;
+  border-radius: 9px;
+}
+
+.broker-image-table .nextui-image-container {
+  margin: 0px !important;
+}
+
+.nav-primary-button {
+  color: #ffffff !important;
+  background-color: #5674c7 !important;
+  background: #5674c7 !important;
+}
+
+.primary-button {
+  color: #ffffff !important;
+  background-color: #3c57a2 !important;
+  background: #3c57a2 !important;
+  cursor: pointer;
+}
+
+.nav-primary-button:hover {
+  background: #5674c7bf !important;
+}
+
+.primary-button:hover {
+  background: rgba(60, 87, 162, 0.8) !important;
+}
+
+.primary-outline-button {
+  color: #3c57a2 !important;
+  background-color: #ffffff !important;
+  background: #ffffff !important;
+  border: 1px solid #3c57a2 !important;
+}
+
+.primary-outline-button:hover {
+  color: #ffffff !important;
+  background-color: #3c57a2 !important;
+  background: #3c57a2 !important;
+}
+
+.active-sub-primary-tab {
+  color: #ffffff !important;
+  background-color: #3c57a2 !important;
+  border: 1px solid #3c57a2 !important;
+  background: #3c57a2 !important;
+}
+
+.svg-wrapper {
+  fill: #3c57a2 !important;
+}
+
+.primary-outline-button:hover .svg-wrapper {
+  fill: #fff !important;
+}
+
+/* Default */
+.basket-dropdown-button {
+  color: #3c57a2;
+}
+
+/* Hover */
+.basket-dropdown-button:hover {
+  color: #ffffff !important;
+}
+
+/* Icon inherits color */
+.basket-dropdown-button .basket-icon {
+  width: 25px;
+  height: 25px;
+  color: inherit;
+}
+
+/* Hover icon */
+.basket-dropdown-button:hover .basket-icon {
+  color: #ffffff;
+}
+
+
+.active-button {
+  color: #ffffff !important;
+  background-color: #3c57a2 !important;
+  background: #3c57a2 !important;
+}
+
+.active-button .svg-wrapper {
+  fill: #fff !important;
+}
+
+.custom-checkbox .nextui-checkbox-container {
+  --nextui--checkboxColor: #3c57a2 !important;
+  --nextui--checkboxColorHover: #3c57a2bf !important;
+}
+
+.custom-dropdown-wrapper .nextui-c-kpzpMf-cCTdlj-color-secondary {
+  --nextui--dropdownItemHoverBackground: #3c57a21a !important;
+  --nextui--dropdownItemHoverTextColor: #3c57a2 !important;
+}
+
+.nextui-checkbox-input {
+  background-color: #3c57a2 !important;
+  border-color: #3c57a2 !important;
+}
+
+.primary-text-color {
+  color: #3c57a2 !important;
+}
+
+.tertiary-red-text-color {
+  color: #df4a4a !important;
+  /* color: #ac3939 !important; */
+}
+
+.border-red-color {
+  border: 1px solid #df4a4a !important;
+}
+
+.border-black-color {
+  border: 1px solid #000 !important;
+}
+
+.black-text-color {
+  color: #2c2c2c !important;
+}
+
+.light-Active-tab-color {
+  background-color: #d7ddf1;
+}
+
+.secondary-button {
+  color: #3c57a2 !important;
+  background-color: #ffffff !important;
+  border: 1px solid #3c57a2 !important;
+}
+
+.custom-ui-button .nextui-button {
+  /* background-color: #3c57a2 !important; */
+  color: #ffffff !important;
+  background: #3c57a2 !important;
+}
+
+.custom-next-ui-button .nextui-button:hover {
+  background-color: #3c57a2bf !important;
+}
+
+.secondary-button:hover {
+  background-color: rgba(60, 87, 162, 0.1) !important;
+}
+
+.border-radius-8 {
+  border-radius: 8px !important;
+}
+
+.input-secondary-bg-color .nextui-c-jeuecp {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+.input-secondary-bg-color .nextui-c-eXOOPO {
+  background-color: rgba(60, 87, 162, 0.1) !important;
+  background: rgba(60, 87, 162, 0.1) !important;
+}
+
+.border-radius-8 .nextui-input-wrapper {
+  border-radius: 8px !important;
+}
+
+.signup-input-wrapper .nextui-input-main-container {
+  width: 100% !important;
+}
+
+.font-weight-500 {
+  font-weight: 500 !important;
+}
+
+.nextui-c-itiWTf-bDUxer-checked-true {
+  background: #3c57a2 !important;
+}
+
+.exch_switch .nextui-c-itiWTf {
+  background: #3c57a2 !important;
+}
+
+.nextui-radio-point {
+  --nextui--radioColor: #3c57a2 !important;
+  --nextui--radioColorHover: #3c57a2bf !important;
+}
+
+.nextui-checkbox-container {
+  --nextui--checkboxColor: #3c57a2 !important;
+  --nextui--checkboxColorHover: #3c57a2bf !important;
+}
+
+.equity-plus-button .nextui-c-iWjDFM-hkKLfu-color-default {
+  background: #3c57a2 !important;
+  color: #ffffff !important;
+}
+
+.disable-button {
+  background: #eceef0 !important;
+  color: #7e868c !important;
+  cursor: not-allowed;
+}
+
+.disable-text-color {
+  color: #7e868c !important;
+}
+
+.disable-text-color .nextui-radio-text {
+  color: #7e868c !important;
+}
+
+.disable-button .nextui-c-iWjDFM-hkKLfu-color-default {
+  background: #f3f3f3 !important;
+  color: #7e868c !important;
+  cursor: not-allowed;
+}
+
+.navbar-item-zIndex-99 .nextui-navbar-item {
+  z-index: 99;
+}
+
+.nextui-button-icon-right {
+  /* color: #3c57a2 !important; */
+  margin: 0px;
+
+  &:hover {
+    color: #fff !important;
+
+  }
+}
+
+
+.nextui-c-eKVPvf-iBFhCV-color-default {
+  --nextui--paginationColor: #3c57a2 !important;
+}
+
+/* multiselect-react-dropdown Selected clients' color */
+.multiselect-container .chip {
+  background-color: #3c57a2 !important;
+  color: white !important;
+  border-radius: 8px;
+}
+
+/* Options list hover background color */
+.multiselect-container .option:hover {
+  background-color: #3c57a2 !important;
+  color: white !important;
+}
+
+.multiselect-container .highlightOption {
+  background-color: #3c57a2 !important;
+  color: white !important;
+}
+
+.group-broker-fno-broker .nextui-c-iVzbCs {
+  margin: 0px !important;
+}
+
+.signup-confirmation-modal .nextui-c-iWjDFM-hkKLfu-color-default {
+  color: #3c57a2 !important;
+  background-color: #ffffff !important;
+  border: 1px solid #3c57a2 !important;
+  background: white !important;
+}
+
+.signup-confirmation-modal .nextui-c-iWjDFM-hkKLfu-color-default:hover {
+  background-color: rgba(60, 87, 162, 0.1) !important;
+}
+
+.sidebar-container .css-dip3t8 {
+  background-color: #fff !important;
+}
+
+.primary-active-border {
+  border-bottom: 1.5px solid #3c57a2 !important;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+  /* background: rgba(0, 0, 0, 0.5); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.ag-center-cols-container .first-column-cell-client-login {
+  min-width: 20px;
+  max-width: 30px;
+  text-align: center;
+  padding: 4px;
+}
+
+/* Reduce scrollbar width globally */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Scrollbar track (background) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 8px;
+}
+
+/* Scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 8px;
+}
+
+/* Thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}

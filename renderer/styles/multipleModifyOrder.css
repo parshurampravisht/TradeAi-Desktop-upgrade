@@ -1,0 +1,36 @@
+.modify-multiple-order-modal .nextui-modal-body {
+  padding: 10px 0px;
+}
+.modify-multiple-order-modal .nextui-tooltip {
+  z-index: 1500 !important;
+}
+.tooltip-wrapper .nextui-image-container {
+  top: 6px;
+  right: 50px;
+}
+
+.broker-image-wrapper .nextui-image-container {
+  margin: 0px 0px 0px 5px;
+}
+
+.table-body tr {
+  height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.table-body td {
+  font-size: 12px;
+  font-weight: 500;
+  color: #000;
+}
+.table-body tr:nth-child(even) {
+  background-color: white;
+}
+
+.table-body tr:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+.table-body tr:hover {
+  background-color: rgb(191, 224, 235);
+}
